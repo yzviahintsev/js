@@ -13,4 +13,5 @@ setTimeout(() => {
   b.setAttribute('type', 'text/javascript');
   b.innerHTML = 'console.log("inline script from index.js")';
   document.querySelector("html body").appendChild(b);
+  alert('olololo');
 }, 100);
